@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -19,9 +20,8 @@ MonoBehaviour:
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
-    cameraDirection: 0
-    mirrorVideoBackground: 0
     version: 7.2.24
+    eulaAcceptedVersions: '{"Values":["8.1"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -43,6 +43,8 @@ MonoBehaviour:
       DistortionCoefficients: {x: 0, y: 0}
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
+  database:
+    disableModelExtraction: 0
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -58,12 +60,10 @@ MonoBehaviour:
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-    fusionMode: 7
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
     deviceNameSetInEditor: 
-    flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
