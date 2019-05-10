@@ -1,8 +1,21 @@
-# AR-project
-AR Fashion App I built when I was @kumasi_hive Creative Augmented Reality Enterprise
-# problem -> git push [AR-project]
-couldn't push project from my local repository on my local machine to github server
+# Augmented Reality Fashion Android Mobile Application
 
-# link to my google drive
-if you want to take a look at my ar-project, please download it from my google drive
-# https://drive.google.com/open?id=1ZD8O1K3GB_MwxB1kGPUagjWZzTWAFtDS
+**Clone and run for a quick way to see AR in action.**
+
+This is an Augmented Reality application developed with Unity Game Engine and the Vuforia SDK
+
+## To Use
+
+To clone and run this repository you'll need [Git](https://git-scm.com), [Unity Game Engine](https://unity.com) installed with [Vuforia SDK](https://developer.vuforia.com) and [Android SDK](https://developer.android.com/studio)
+
+From your command line:
+
+```bash
+# Clone this repository
+git clone https://github.com/king-kloy/AR-project.git
+# Go into the repository
+cd AR-project
+```
+
+Happing Hacking...
+
